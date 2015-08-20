@@ -442,6 +442,7 @@ Extras.Classes.Tips = new Class({
       rt = rt.parentNode;
     }
     this.hide(false);
+    this.node = false;
   },
   
   onMouseOver: function(e, win) {
